@@ -1,7 +1,16 @@
 import React from "react";
-import { FaHome, FaUserFriends, FaCalendarAlt, FaEnvelope, FaWallet, FaCog } from "react-icons/fa";
+import {
+  FaHome,
+  FaUserFriends,
+  FaCalendarAlt,
+  FaEnvelope,
+  FaWallet,
+  FaCog,
+} from "react-icons/fa";
 import logo from "../assets/logo.svg"; // Replace with your logo
-import profilePic from "../assets/profile.jpg"; // Replace with your profile picture
+import profilePic from "../assets/profile.jpg";
+import more_vert_FILL0_wght300_GRAD0_opsz24 from "../assets/more_vert_FILL0_wght300_GRAD0_opsz24.svg";
+// Replace with your profile picture
 
 const Navbar = () => {
   return (
@@ -9,7 +18,6 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="flex items-center space-x-3">
         <img src={logo} alt="Tech.Care Logo" className="h-8" />
-        
       </div>
 
       {/* Navigation Links */}
@@ -48,6 +56,11 @@ const Navbar = () => {
           <p className="text-sm text-gray-500">General Practitioner</p>
         </div>
         <FaCog className="text-gray-600 text-lg cursor-pointer" />
+        <img
+          src={more_vert_FILL0_wght300_GRAD0_opsz24}
+          alt="Female icon"
+          className="text-gray-500  mr-2 mt-1"
+        />
       </div>
     </div>
   );
