@@ -326,7 +326,7 @@ const Home = () => {
 
         {/* Lab Results Section (Right Section) */}
         <div className="relative left-[1144px]">
-          <div className=" relative bg-white mt-6 right-0 p-4 rounded-lg shadow w-80  z-50">
+          <div className=" relative bg-white mt-6 right-5 p-4 rounded-lg  bottom-7  w-[80] h-[300px]  z-50">
             <h3 className="text-lg font-bold mb-4">Lab Results</h3>
             <ul className="space-y-4">
               <li className="flex justify-between items-center">
